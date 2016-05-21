@@ -8,4 +8,4 @@ WORKDIR /app
 
 EXPOSE 3000
 
-ENTRYPOINT /bin/bash
+CMD [ "nodemon" ]
